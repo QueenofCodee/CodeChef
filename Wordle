@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--){
+	    string s,a,b="";
+	    cin>>s>>a;
+	    for(int i=0;i<5;i++)
+	    {
+	        if(s[i]==a[i]){
+	            b+='G';
+	        }
+	        else {
+	            b+='B';
+	        }
+	    }
+	    cout<<b<<endl;
+	}
+	return 0;
+}
