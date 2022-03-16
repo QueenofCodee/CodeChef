@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--){
+	    int n,x,k,ans;
+	    cin>>n>>x>>k;
+	    ans =(n<(k/x))?n:(k/x);
+	    cout<<ans<<endl;  
+   	}
+	return 0;
+}
