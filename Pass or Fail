@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int T;
+    cin >> T;
+    while(T--){
+       int N,X,P;
+       string result;
+        cin>> N>>X>>P;
+        int marks = X * 3 - (N - X);
+        result = (marks >= P)?"PASS":"FAIL";
+        cout<<result<<endl;
+        
+     }
+    return 0;
+}
